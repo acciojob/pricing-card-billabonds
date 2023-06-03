@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+.container{
+	background-color: white;
+	height: 680px;
+	width: 430px;
+	text-align: center;
+	border: 1px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+
+.container .image img{
+	padding-top: 50px;
+	width: 300px;
+	height: 190px;
+}
+
+.container h1{
+	font-size: 55px;
+	margin: 4px;
+}
+
+.container .desc{
+/* 	margin: 2px; */
+	padding: 2px 20px;
+/* 	display: flex; */
+/* 	flex-direction: column; */
+/* 	justigy-items: center; */
+	font-size: 37px;
+}
+
+.container button{
+	border-radius: 15px;
+	padding: 20px;
+	background-color: red;
+	border: none;
+	color: white;
+	font-size: 25px;
+	width: 150px;
+	margin: 20px;
+}
+
+
